@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <section>
+            <div id="bloco-principal">
+                    <h1><strong>CALCULADORA DE IMC</strong></h1>
+                    <div id="legenda">
+                        <div class="texto-legenda">
+                            <h3>IMC</h3>
+                            <ul>
+                                <li>Menos do que 18,6</li>
+                                <li>Entre 18,5 e 24,9</li>
+                                <li>Entre 25 e 29,9</li>
+                                <li>Entre 30 e 34,9</li>
+                                <li>Entre 35 e 39,9</li>
+                                <li>Mais do que 40</li>
+                            </ul>
+                        </div>
+                        <div class="texto-legenda">
+                            <h3>Resultado</h3>
+                            <ul>
+                                <li>Abaixo do peso</li>
+                                <li>Peso normal</li>
+                                <li>Sobrepeso</li>
+                                <li>Obesidade Grau 1</li>
+                                <li>Obesidade Grau 2</li>
+                                <li>Obesidade Grau 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form action="" id="formulario">
+                        <label for="peso"><strong>Peso:</strong></label>
+                        <input type="text" id="peso">
+                        <label for="altura"><strong>Altura:</strong></label>
+                        <input type="text" id="altura">
+                        <button>Enviar</button>
+                    </form>
+                    <div id="resultado">
+                    </div>
+            </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

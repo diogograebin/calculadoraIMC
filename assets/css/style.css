@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-size: 22px;
+}
+
+h1{
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+input{
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+button{
+    margin-top: 40px;
+    color: #fff;
+    background: rgb(18, 10, 182);
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+button:hover{
+    background: rgb(11, 7, 88);
+}
+
+
+#bloco-principal{
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 600px;
+    height: 100%;
+}
+
+#legenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.texto-legenda{
+    padding: 10px;
+    margin-right: 40px;
+}
+
+#formulario{
+    display: flex;
+    margin-top: -30px;
+    background-origin: padding-box;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+}
+
+#resultado{
+    padding: 0px 50px 0px 50px;
+}
+
+.paragrafo-resultado, .bad{
+    background: #68ce76;
+    padding: 10px 20px;
+}
+
+.bad{
+    background: #b44343;
+}
+
+
