@@ -4,7 +4,7 @@ Este projeto é uma simples calculadora de IMC (Índice de Massa Corporal) desen
 
 ## Acesse o Projeto
 
-Você pode usar a calculadora diretamente [neste link](URL_DO_SEU_PROJETO_HOSPEDADO).
+Você pode usar a calculadora diretamente [neste link](https://diogograebin.github.io/calculadoraIMC/).
 
 ## Tecnologias Utilizadas
 
