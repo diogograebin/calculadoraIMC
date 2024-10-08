@@ -27,6 +27,3 @@ Você pode usar a calculadora diretamente [neste link](URL_DO_SEU_PROJETO_HOSPED
 
 Sinta-se à vontade para fazer um fork deste repositório e enviar pull requests. Sugestões e melhorias são sempre bem-vindas!
 
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
